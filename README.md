@@ -8,7 +8,7 @@
 ### Steps
 
 1. Download `onnxruntime` release package from [here](https://github.com/microsoft/onnxruntime/releases).
-2. Extract the package to `onnx-llm/third_party/onnxruntime`.
+2. Extract the package to `onnx-llm/3rd_party/onnxruntime`.
 3. Compile the project.
 
 ### Example
