@@ -15,7 +15,7 @@
 ```base
 wget https://github.com/microsoft/onnxruntime/releases/download/v1.19.2/onnxruntime-osx-arm64-1.19.2.tgz
 tar -xvf onnxruntime-osx-arm64-1.19.2.tgz
-mv onnxruntime-osx-arm64-1.19.2 onnx-llm/third_party/onnxruntime
+mv onnxruntime-osx-arm64-1.19.2 3rd_party/onnxruntime -T
 mkdir build && cd build
 cmake ..
 make -j
