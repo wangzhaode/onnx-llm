@@ -23,7 +23,8 @@ make -j
 
 ## Usage
 
-Same as [mnn-llm](https://github.com/wangzhaode/mnn-llm)
+1. Model export using [llm-export](https://github.com/wangzhaode/llm-export)
+2. Usage of onnx-llm same as [mnn-llm](https://github.com/wangzhaode/mnn-llm)
 
 ```base
 (base) ➜  build git:(main) ✗ ./cli_demo qwen2-0.5b-instruct/config.json ../resource/prompt.txt
